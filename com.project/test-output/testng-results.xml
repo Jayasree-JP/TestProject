@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-19T21:15:37 IST" name="Suite" finished-at="2024-12-19T21:15:38 IST" duration-ms="1084">
+    <groups>
+    </groups>
+    <test started-at="2024-12-19T21:15:37 IST" name="ChromeTest" finished-at="2024-12-19T21:15:37 IST" duration-ms="210">
+      <class name="testClasses.ManageUsersPageTestClass">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.ManageUsersPageTestClass@4bff7da0]" started-at="2024-12-19T21:15:37 IST" name="beforeClass" finished-at="2024-12-19T21:15:37 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.ManageUsersPageTestClass@4bff7da0]" started-at="2024-12-19T21:15:37 IST" name="beforeMethod" finished-at="2024-12-19T21:15:37 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUsersPageTestClass@4bff7da0]" started-at="2024-12-19T21:15:37 IST" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" finished-at="2024-12-19T21:15:37 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheManageUsersPageIsOpenWhileClickingOnUsers -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUsersPageTestClass@4bff7da0]" started-at="2024-12-19T21:15:37 IST" name="afterMethod" finished-at="2024-12-19T21:15:37 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.ManageUsersPageTestClass@4bff7da0]" started-at="2024-12-19T21:15:37 IST" name="beforeMethod" finished-at="2024-12-19T21:15:37 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToAdd_aNewUser()[pri:0, instance:testClasses.ManageUsersPageTestClass@4bff7da0]" started-at="2024-12-19T21:15:37 IST" name="verifyToAdd_aNewUser" finished-at="2024-12-19T21:15:37 IST" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToAdd_aNewUser -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUsersPageTestClass@4bff7da0]" started-at="2024-12-19T21:15:37 IST" name="afterMethod" finished-at="2024-12-19T21:15:37 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.ManageUsersPageTestClass -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-12-19T21:15:37 IST" name="EdgeTest" finished-at="2024-12-19T21:15:38 IST" duration-ms="1084">
+      <class name="testClasses.ManageUsersPageTestClass">
+        <test-method is-config="true" signature="createReport(org.testng.ITestContext)[pri:0, instance:testClasses.ManageUsersPageTestClass@2bec854f]" started-at="2024-12-19T21:15:37 IST" name="createReport" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1734623137289" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Native Injection is NOT supported for @BeforeSuite annotated createReport.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Native Injection is NOT supported for @BeforeSuite annotated createReport.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:testClasses.ManageUsersPageTestClass@2bec854f]" started-at="2024-12-19T21:15:37 IST" name="beforeClass" finished-at="2024-12-19T21:15:37 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.ManageUsersPageTestClass@2bec854f]" started-at="2024-12-19T21:15:37 IST" name="beforeMethod" finished-at="2024-12-19T21:15:37 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheManageUsersPageIsOpenWhileClickingOnUsers()[pri:0, instance:testClasses.ManageUsersPageTestClass@2bec854f]" started-at="2024-12-19T21:15:37 IST" name="verifyTheManageUsersPageIsOpenWhileClickingOnUsers" finished-at="2024-12-19T21:15:37 IST" duration-ms="2" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Native Injection is NOT supported for @BeforeSuite annotated createReport.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Native Injection is NOT supported for @BeforeSuite annotated createReport.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheManageUsersPageIsOpenWhileClickingOnUsers -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUsersPageTestClass@2bec854f]" started-at="2024-12-19T21:15:38 IST" name="afterMethod" finished-at="2024-12-19T21:15:38 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testClasses.ManageUsersPageTestClass@2bec854f]" started-at="2024-12-19T21:15:38 IST" name="beforeMethod" finished-at="2024-12-19T21:15:38 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyToAdd_aNewUser()[pri:0, instance:testClasses.ManageUsersPageTestClass@2bec854f]" started-at="2024-12-19T21:15:38 IST" name="verifyToAdd_aNewUser" finished-at="2024-12-19T21:15:38 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Native Injection is NOT supported for @BeforeSuite annotated createReport.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Native Injection is NOT supported for @BeforeSuite annotated createReport.
+For more information on native dependency injection please refer to https://testng.org/#_dependency_injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:442)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:347)
+at org.testng.internal.Parameters.createParameters(Parameters.java:699)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToAdd_aNewUser -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testClasses.ManageUsersPageTestClass@2bec854f]" started-at="2024-12-19T21:15:38 IST" name="afterMethod" finished-at="2024-12-19T21:15:38 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testClasses.ManageUsersPageTestClass@2bec854f]" started-at="2024-12-19T21:15:38 IST" name="afterSuite" finished-at="2024-12-19T21:15:38 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testClasses.ManageUsersPageTestClass -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
